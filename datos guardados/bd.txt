@@ -1,0 +1,13 @@
+CREATE TABLE pelicula (
+	id int(7) PRIMARY KEY,
+    Nombre varChar(200),
+    Des varChar(300),
+    fEst int(5)               
+);
+
+
+//------------------------------------------Valores pelicula---------------------------------------------
+INSERT INTO pelicula (id, Nombre, Des, fEst) VALUES
+(1, 'Five Nights at Freddy\'s', 'Adaptación de la saga de videojuegos donde un guardia nocturno enfrenta animatrónicos poseídos.', 2023),
+(2, 'Minecraft: The Movie', 'Aventura basada en el popular videojuego, donde un grupo de héroes debe salvar el mundo cúbico.', 2025),
+(3, 'I Want to Eat Your Pancreas', 'Drama japonés sobre una amistad inesperada entre un chico reservado y una chica con una enfermedad terminal.', 2018);

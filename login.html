@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">CMC | Inicio sesion</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <form id="form" action="">
+        <img src="icon.png" alt="">
+        <h1 style="margin:15px 0; z-index: 1;">Iniciar Sesión</h1>
+        <div class="container">
+            <label for="username"><b>Usuario</b></label>
+            <input class="in" type="text" placeholder="Ingrese su usuario" name="username" required>
+            
+            <label for="psw"><b>Contraseña</b></label>
+            <div class="pass">
+                <input  id="pass" class="in" type="password" placeholder="Ingrese su contraseña" name="pass" required>
+                <button style="color: white; background-color: transparent; border: 0;"  type="button" onclick="mc()"><i id="vi"  class="fa-solid fa-eye"></i></button>
+                
+            </div>
+            <button  class="btn" type="submit">Iniciar sesión</button>
+            
+             <br>
+             <br>
+            <section style="display: flex; text-align: center   ;">
+                <span class="psw"><a id="reg">¿No tienes cuenta? Registrate ya</a></span>
+                <span class="psw"><a>¿Olvidaste tu contraseña?</a></span>
+            </section>
+            <br>    
+        </div>	    
+    </form>
+    <script src="/js/login.js"></script>
+    <script text src="https://kit.fontawesome.com/90ac4b5e66.js" crossorigin="anonymous"></script>
+</body>
+</html>
