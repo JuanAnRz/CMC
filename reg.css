@@ -6,7 +6,10 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #2f3437;
+    /* background-color: #2f3437; */
+    background-image: url('Cartelera/bc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     min-height:600px;
     color: white;
@@ -14,16 +17,30 @@ body{
     justify-content: center;
     align-items: center;
     transition: all .2s ease-in-out;
+
 }
-
-
+ 
+body::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    margin:15px 0;
+     z-index: 1;
+}
+#ve{
+    color: white; 
+    background-color:
+    transparent; border: 0;
+}
 form{
     position: relative;
     height: fit-content;
     width: 300px;
-    box-shadow: 0 0 80px rgba(12, 232, 232, 0.881);
+    /* box-shadow: 0 0 80px rgba(12, 232, 232, 0.881); */
+    box-shadow: 0 0 80px rgba(255, 249, 126, 0.881);
+    
     transition: all .5s ease-in-out;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,6 +57,7 @@ img{
      z-index: 0;
 }
 .in{
+
     z-index: 0;
     color: white;
     width: 100%;
@@ -66,12 +84,13 @@ img{
 }
 
 .btn:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 0 0 30px rgba(12, 232, 232, 0.881);
     transition: all 0.5s ;
 }
 
 section{
+    overflow: hidden;
     color: white;
     width: 100%;
     height: fit-content;
@@ -79,7 +98,11 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    text-align: center   ;
+}
+section a{
+    width: 100%;
+    margin: 15px 10px;
 }
 a{
     width: 100%;
@@ -126,10 +149,12 @@ a{
     }
     section{
         display: flex;
+        flex-wrap: wrap;
         height: fit-content;
         width: 100%;
-        padding: 0 20px;
+        padding: 0 10px;
         justify-content: space-around;
     }
+    
     
 }

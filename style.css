@@ -14,9 +14,19 @@ body{
     font-weight: 200;
     font-style: normal;
   }
+#user{
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
 
+}
+#user:hover{
+    transform: scale(1.2);
+    transition: all .5s ;
+}
 #nav{
     padding: 20px;
+    position: relative;
     color: white;
     width: 100%;
     display: flex;
