@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #2f3437; */
+    background-image: url('Cartelera/pop.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    min-height:600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+    
+}
+ 
+body::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    margin:15px 0;
+     z-index: 1;
+}
+#ve{
+    z-index: 4;
+    color: white; 
+    background-color:
+    transparent; border: 0;
+}
+form{
+    position: relative;
+    height: fit-content;
+    width: 300px;
+    box-shadow: 0 0 80px rgba(12, 232, 232, 0.881);
+    /* box-shadow: 0 0 80px rgba(255, 249, 126, 0.881); */
+    
+    transition: all .5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+img{
+    /* opacity: 5; */
+    width: 150px; 
+    position: absolute;
+    top: -70px;
+     z-index: 0;
+}
+.in{
+
+    z-index: 0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 15px 0;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid  white;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #0cc0df;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 30px rgba(12, 232, 232, 0.881);
+    transition: all 0.5s ;
+}
+
+section{
+    overflow: hidden;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center   ;
+}
+section a{
+    width: 100%;
+    margin: 15px 10px;
+}
+.a{
+    height: fit-content;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    /* margin: 10px 0 ;
+    padding: 5px 0 ; */
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+}
+/* #vi{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 4;
+    /* left: 10px; */
+    /* bottom: 50%; */
+} */
+.pass{
+    width:"100%";
+    display: flex; 
+    position: relative;
+}
+
+span{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 530px){
+    form{
+        width: 90%;
+        box-shadow: 0 0 40px rgba(12, 232, 232, 0.881);
+    }
+    .container{
+        font-size: 24px;
+    }
+    .in{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+        padding: 0 10px;
+        justify-content: space-around;
+    }
+    
+    
+}

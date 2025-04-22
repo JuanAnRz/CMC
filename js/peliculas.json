@@ -1,0 +1,38 @@
+[   
+    
+    {
+        "name":"Minecraft",
+        "type":"Aventura",
+        "year":2025,
+        "img":"Cartelera/minecraft.png",
+        "description":"Minecraft es un videojuego de construcción, de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson,​ y posteriormente desarrollado por su empresa, Mojang Studios, y ahora adquirido por Microsoft.​ Fue lanzado públicamente el 17 de mayo de 2009, después de diversos cambios fue lanzada su versión completa el 18 de noviembre de 2011.​"
+    },
+    {
+        "name":"Sonic",
+        "type":"Aventura",
+        "year":2020,
+        "img":"Cartelera/sonic.png",
+        "description":"Sonic the Hedgehog es una película de aventuras y comedia de ciencia ficción estadounidense de 2020 basada en la franquicia de videojuegos de Sega del mismo nombre. La película está dirigida por Jeff Fowler en su debut como director y escrita por Patrick Casey, Josh Miller y Oren Uziel, a partir de una historia de Van Robichaux y Evan Susser."
+    },
+    {
+        "name":"Soul",
+        "type":"Animación",
+        "year":2020,
+        "img":"Cartelera/soul.png",
+        "description":"Soul es una película de animación estadounidense de 2020 producida por Pixar Animation Studios y lanzada por Walt Disney Pictures. Dirigida por Pete Docter y co-dirigida por Kemp Powers, la película está protagonizada por las voces de Jamie Foxx, Tina Fey, Questlove, Phylicia Rashad y Daveed Diggs."
+    },
+    {
+        "name":"Raya",
+        "type":"Animación",
+        "year":2021,
+        "img":"Cartelera/raya.png",
+        "description":"Raya y el último dragón es una película de animación de aventuras y fantasía de 2021 producida por Walt Disney Animation Studios y lanzada por Walt Disney Pictures. La película está dirigida por Don Hall y Carlos López Estrada, co-dirigida por Paul Briggs y John Ripa, producida por Osnat Shurer y Peter Del Vecho, escrita por Qui Nguyen y Adele Lim, y musicalizada por James Newton Howard."
+    },
+    {
+        "name":"Godzilla",
+        "type":"Acción",
+        "year":2021,
+        "img":"Cartelera/godzilla.png",
+        "description":"Godzilla vs. Kong es una película de monstruos estadounidense de 2021 dirigida por Adam Wingard. Es una secuela de Godzilla: King of the Monsters y Kong: Skull Island, y es la cuarta película del MonsterVerse de Legendary Entertainment. La película es también la 36.ª película de la franquicia de Godzilla, la 12"
+    }
+]
