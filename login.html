@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="reg.css">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
 </head>
-<body>
+<body id="body">
     <form id="form" action="">
         <img src="icon.png" alt="">
         <h1 >Iniciar Sesión</h1>
@@ -18,15 +18,15 @@
             <label for="pass"><b>Contraseña</b></label>
             <div class="pass">
                 <input autocomplete="off"  id="pass" class="in" type="password" placeholder="Ingrese su contraseña" name="pass" required>
-                <div>
-                    <input type="checkbox" name="ve" id="vi" value="mostrar">
-                    <label for="ve">Mostrar Contraseña</label>
+                <div style="display: flex; align-items: center;">
+                    <input type="checkbox"  name="ve" id="vi" value="mostrar">
+                    <label for="ve" style="margin: 5px;">Mostrar Contraseña</label>
                 </div>
                 
             </div>
             <button  class="btn" type="submit">Iniciar sesión</button>
             
-             <br>
+             
              <br>
             <section>
                 <span class="psw"><button type="button" class="a" onclick="change()" ontouchstart="change()">¿No tienes cuenta? Registrate ya</button></span>
