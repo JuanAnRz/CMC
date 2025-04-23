@@ -29,7 +29,7 @@ const title= document.getElementById("title");
 const form= document.getElementById("form");
 const reg= document.getElementById("reg");
 let vi= document.getElementById("vi");
-
+mc();
 
 //-------------------------------Funciones-------------------------------
 function change(){
