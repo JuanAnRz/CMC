@@ -47,8 +47,55 @@ p{
     font-size: 30px;
 }
 
+
+#cont{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(90, 90, 90);
+    width: 90%;
+    height: 50svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ins{
+    background-color: transparent;
+    border: 5px solid rgb(12, 232, 232);
+    border-radius: 5px;
+    color: white;
+    min-height: 40px;
+}
+
+#file{
+    display: none;
+}
+#fils{
+    background-color: transparent;
+    border: 5px solid rgb(12, 232, 232);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    min-height: 100px;
+}
+#img{
+    max-height: 100%;
+    max-width: 100%;
+    /* border-radius: 5px; */
+    /* border: 1px solid rgb(12, 232, 232);  */
+}
+#contImg{
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid rgb(12, 232, 232);
+}
 @media screen and (max-width:480) {
     #nav{
-        font-size: 20px;
+        font-size: 0.6svw;
     }
 }
