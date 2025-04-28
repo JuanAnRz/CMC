@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1b1e20;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+#nav{
+    padding: 20px;
+    position: relative;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    height: 140px;
+    align-items: center;
+    font-size: 2em;
+}
+.icon{
+    height: 100%;
+}
+
+i{
+    font-size: 200px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    background-color: transparent;
+     border: 10px rgb(12, 232, 232) solid;
+     color:rgb(12, 232, 232); 
+     border-radius: 20px; 
+     /* padding: 20px; */
+     height: 290px;
+    width: 290px;
+    margin: 20px 0;
+}
+p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:480) {
+    #nav{
+        font-size: smaller;
+    }
+}
